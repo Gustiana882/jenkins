@@ -9,7 +9,9 @@ pipeline {
         }
         stage('Example Deploy') {
             when {
-                branch 'development'
+                expression {
+                    branch 'development'
+                }
             }
             steps {
                 echo 'Deploying coba'
