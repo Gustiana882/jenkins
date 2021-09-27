@@ -12,7 +12,7 @@ pipeline {
                 branch 'development'
             }
             steps {
-                echo 'Deploying'
+                echo 'Deploying coba'
             }
         }
     }
