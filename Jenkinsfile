@@ -3,11 +3,6 @@ def imageName = "wsaefulloh/frontend_ankasa:devs"
 
 pipeline {
     agent any
-    environment{}
-
-    // parameters {
-    //     booleanParam(name: "RUNTEST", defaultValue: "true", description: "Running testing")
-    // }
 
     stages {
         stage('Installing package') {
