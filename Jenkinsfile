@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Example Deploy') {
             when {
-                expression { BRANCH_NAME ==~ /(production|staging)/ }
+                echo branch
             }
             steps {
                 echo 'Deploying'
